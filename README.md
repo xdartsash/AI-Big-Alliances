@@ -1,45 +1,40 @@
 # AI Big Alliances
 
-A game AI modification project focused on large alliances.
+AI modification project focused on large alliances.
 
-> **Development status:** Early-stage repository. This repository currently contains project documentation, not a playable build or game source code.
+[![Release 2.4](https://img.shields.io/badge/release-2.4-blue)](https://github.com/xdartsash/AI-Big-Alliances/releases/tag/aibigalliances2.4)
+[![GitHub issues](https://img.shields.io/github/issues/xdartsash/AI-Big-Alliances)](https://github.com/xdartsash/AI-Big-Alliances/issues)
+
+## Download
+
+- [AI Big Alliances 2.4](https://github.com/xdartsash/AI-Big-Alliances/releases/tag/aibigalliances2.4)
+- [All releases](https://github.com/xdartsash/AI-Big-Alliances/releases)
 
 ## Editions
 
 | | Workshop Lite | Full |
-| --- | --- | --- |
-| Modification method | `gameValues` only | Modified `game.jar` |
-| Requires replacing the game JAR | No | Yes |
-| Full-version AI improvements | Not included | Planned / to be documented |
-| Verified game compatibility | Not yet documented | Not yet documented |
+|---|---|---|
+| Modification method | gameValues only | Modified game.jar |
+| Full-version improvements | Not included | Requires modified game.jar |
 
-The original Full version improvements require a modified `game.jar`; they are not included in the gameValues-only Workshop Lite version.
+Full version improvements require a modified game.jar and are not included in the gameValues-only Workshop Lite version.
 
-## Project goals
+Back up original game files before replacing them. Refer to the release page for available downloads and instructions.
 
-The following are proposed development goals, not a list of implemented features:
+## Development
 
-- More meaningful AI decisions about forming and joining alliances.
-- Strategic evaluation of partners, rivals and threats.
-- Better coordination between alliance members.
-- Balanced, configurable behavior with reproducible test scenarios.
+The repository source tree does not currently contain game source code or playable builds. Existing release assets are separate.
 
-See the [development roadmap](docs/ROADMAP.md) for priorities and validation criteria.
-
-## Installation and compatibility
-
-Installation instructions, supported game versions and download links will be documented when a verified build is available. Do not replace your original game files without making a backup. Use only files you are authorized to modify or distribute.
-
-## Feedback and development
-
-- [Report a bug or suggest an improvement](https://github.com/xdartsash/AI-Big-Alliances/issues).
-- [Contributing guide](CONTRIBUTING.md).
-- [Development roadmap](docs/ROADMAP.md).
+- [Development roadmap](docs/ROADMAP.md) — proposed future work, not confirmed features.
+- [Contributing guide](CONTRIBUTING.md)
+- [Report a bug or suggest an improvement](https://github.com/xdartsash/AI-Big-Alliances/issues/new/choose)
 
 ## Русский
 
-AI Big Alliances — проект модификации игрового ИИ с упором на крупные альянсы. Lite использует только gameValues, а Full требует изменённого game.jar. Исходный код, готовые сборки и подтверждённая совместимость пока не опубликованы в этом репозитории.
+AI Big Alliances — проект модификации игрового ИИ с упором на крупные альянсы. Workshop Lite использует только gameValues, а Full требует изменённого game.jar.
+
+[Скачать версию 2.4](https://github.com/xdartsash/AI-Big-Alliances/releases/tag/aibigalliances2.4).
 
 ## Rights
 
-No license has been declared in this repository. The original game and its assets remain subject to their respective rights and terms.
+No project-wide license has been declared in this repository. Original game files remain subject to their respective rights and terms.
